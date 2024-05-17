@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #FDD089;
-  --secondary-color: #43DACC;
+  --branding-color: #F96820;
+  --secondary-color: #95DDDA;
   --heading-font-family: "Poppins", sans-serif;
 
   --default-font-family: .oswald-<uniquifier> {
@@ -13,6 +13,9 @@ body {
   font-family: var(--default-font-family);
   background-color:  #E5EEF1;
   
+}
+a {
+  color: #F96820;
 }
 
 h1,
@@ -48,21 +51,27 @@ img {
   margin-left: auto;
 }
 .hero {
-  background-color: var(--secondary-color);
+  background-image:url(../images/destin-beach.jpeg);
   text-align: center;
-  padding: 80px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.hero h1 {
+  color:white;
 }
 .hero p {
   font-size: 36px;
   font-weight: bold;
-  color: #272142;
+  color:white;
   margin: 0;
 }
+
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 24px;
-  color: #272142;
+  color:white;
 }
 .content-container container {
   padding: 60px 20px;
@@ -98,7 +107,7 @@ img {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: #000000;
+  color: #fff;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
